@@ -9,7 +9,10 @@
   color: hsl(228, 45%, 44%);
 }
 
-body {
+body,
+h1,
+h2,
+p {
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -27,7 +30,7 @@ main {
 .container {
   max-width: 700px;
   min-height: 350px;
-  background-color: blueviolet;
+
   display: flex;
   flex-direction: row;
   border-radius: 15px;
@@ -48,7 +51,34 @@ main {
 
 .details-container {
   width: 350px;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 1em;
+  letter-spacing: 5px;
+  margin-bottom: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 2.3rem;
   font-family: "Fraunces";
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 2em;
+  margin-bottom: 2rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
 }
 
 @media screen and (max-width: 1024px) {
