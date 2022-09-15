@@ -81,6 +81,53 @@ p {
   color: hsl(228, 12%, 48%);
 }
 
+.coast-container {
+  font-family: "Fraunces";
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.coast-container > span:last-child {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.button {
+  font-size: 1rem;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 1rem 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.button:hover {
+  background-color: hsl(158, 37%, 23%);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     flex-direction: column;
