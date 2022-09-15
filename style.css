@@ -1,5 +1,5 @@
 .attribution {
-  position: static;
+  position: absolute;
   bottom: 0;
   width: 100%;
   font-size: 11px;
@@ -23,7 +23,7 @@ html {
 }
 
 main {
-  height: 100vh;
+  min-height: 100vmin;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -184,5 +184,12 @@ p {
 
   .coast-container > span:last-child {
     margin-left: 1rem;
+  }
+
+  .attribution {
+    position: relative;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
   }
 }
