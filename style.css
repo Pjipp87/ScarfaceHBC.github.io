@@ -115,10 +115,12 @@ p {
 }
 
 .button {
+  display: flex;
   font-size: 1rem;
   background-color: hsl(158, 36%, 37%);
   color: hsl(0, 0%, 100%);
   width: 100%;
+  justify-content: center;
   text-align: center;
   font-family: "Montserrat";
   font-weight: 700;
@@ -128,6 +130,13 @@ p {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.button > img {
+  filter: invert(100%) sepia(100%) saturate(8%) hue-rotate(182deg)
+    brightness(104%) contrast(104%);
+  width: 1.2rem;
+  margin-right: 15px;
 }
 
 .button:hover {
